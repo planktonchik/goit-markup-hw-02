@@ -55,10 +55,14 @@ header nav ul li {
   letter-spacing: 0.02em;
 }
 
-/* Ховер-ефект для першого пункту */
-.nav-home:hover,
+/* Ховер-ефект */
+.nav-home:hover {
+  color: #404bbf; /* Зміна кольору при наведенні */
+}
+
+/* Фокус-ефект */
 .nav-home:focus {
-  color: #404bbf; /* Колір при ховері чи фокусі */
+  color: #404bbf; /* Зміна кольору при фокусі */
 }
 
 header address {
@@ -117,10 +121,17 @@ header address ul li {
   transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
+/* Ховер-ефект */
+.hero-button:hover {
+  background-color: #404bbf; /* Фон при наведенні */
+  color: #f4f4fd; /* Колір тексту при наведенні */
+}
+
+/* Фокус-ефект */
 .hero-button:focus {
-  background-color: #404bbf; /* Зміна фону */
-  color: #f4f4fd; /* Зміна кольору тексту */
+  background-color: #404bbf; /* Фон при фокусі */
+  color: #f4f4fd; /* Колір тексту при фокусі */
+  outline: none; /* Вимкнення стандартного фокуса */
 }
 
 /* Features Section */
@@ -154,7 +165,7 @@ header address ul li {
 }
 
 /* Team Section */
-team {
+.team {
   background-color: #f4f4fd; /* Встановлення кольору фону */
 }
 
@@ -170,7 +181,13 @@ team {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
+.portfolio-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
