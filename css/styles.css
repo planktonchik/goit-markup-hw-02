@@ -23,7 +23,7 @@ header {
   color: #4d5ae5;
 }
 
-.logo span {
+.logo-span {
   color: #2e2f42;
 }
 
@@ -119,12 +119,23 @@ header address ul li {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: #404bbf; /* Зміна фону */
+  color: #f4f4fd; /* Зміна кольору тексту */
 }
 
 /* Features Section */
 .features {
   background-color: #fff;
+}
+.feature-item {
+  background-color: #ffffff; /* Білий фон */
+}
+.feature-title {
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Колір тексту */
 }
 
 .features ul {
@@ -135,15 +146,7 @@ header address ul li {
   margin-bottom: 20px;
 }
 
-.features ul li h3.feature-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.features ul li p.feature-text {
+.feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -151,6 +154,10 @@ header address ul li {
 }
 
 /* Team Section */
+team {
+  background-color: #f4f4fd; /* Встановлення кольору фону */
+}
+
 .portfolio {
   background-color: #f4f4fd;
 }
@@ -197,7 +204,7 @@ header address ul li {
   text-decoration: none;
 }
 
-.logo span {
+.logo-span-btn {
   color: #f4f4fd;
 }
 
