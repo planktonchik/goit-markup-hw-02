@@ -45,19 +45,18 @@ header nav ul li {
   color: #404bbf;
 }
 /* Navigation Links */
-.nav-link {
-  text-decoration: none;
-  color: #f4f4fd;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+.nav-home {
+  font-weight: 500; /* Жирність шрифту */
+  color: #2e2f42; /* Основний колір */
+  line-height: 1.5; /* Простір між рядками */
+  text-decoration: none; /* Відсутність підкреслення */
   letter-spacing: 0.02em;
-  transition: color 0.3s ease;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+/* Ховер-ефект для першого пункту */
+.nav-home:hover,
+.nav-home:focus {
+  color: #404bbf; /* Колір при ховері чи фокусі */
 }
 
 header address {
