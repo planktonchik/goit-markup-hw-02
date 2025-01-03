@@ -46,6 +46,8 @@ header nav ul li {
 }
 /* Navigation Links */
 .nav-home {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   font-weight: 500; /* Жирність шрифту */
   color: #2e2f42; /* Основний колір */
   line-height: 1.5; /* Простір між рядками */
@@ -102,9 +104,9 @@ header address ul li {
   text-transform: capitalize;
 }
 
-.hero button.hero-btn {
+.hero-button {
   background-color: #4d5ae5;
-  color: #fff;
+  color: #ffffff;
   border: none;
   font-size: 16px;
   font-weight: 500;
@@ -115,8 +117,8 @@ header address ul li {
   transition: background-color 0.3s ease;
 }
 
-.hero button.hero-btn:hover,
-.hero button.hero-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -149,7 +151,7 @@ header address ul li {
 }
 
 /* Team Section */
-.team {
+.portfolio {
   background-color: #f4f4fd;
 }
 
@@ -162,17 +164,7 @@ header address ul li {
   color: #2e2f42;
 }
 
-.team ul {
-  list-style: none;
-}
-
-.team ul li {
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.team ul li h3 {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -180,7 +172,7 @@ header address ul li {
   color: #2e2f42;
 }
 
-.team ul li p {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -194,7 +186,7 @@ header address ul li {
   color: #fff;
 }
 
-.footer-logo-link {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -202,9 +194,10 @@ header address ul li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
-.footer-logo-highlight {
+.logo span {
   color: #f4f4fd;
 }
 
@@ -213,6 +206,7 @@ header address ul li {
   line-height: 1.5;
   margin-bottom: 20px;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 /* Responsive Design */
