@@ -96,7 +96,14 @@ header address ul li {
   color: #404bbf;
   text-decoration: none;
 }
-
+.contact-list:hover,
+.contact-list:focus {
+  color: #404bbf;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
+}
 /* Hero Section */
 .hero {
   text-align: center;
