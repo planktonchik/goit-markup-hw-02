@@ -57,12 +57,14 @@ header nav ul li {
 
 /* Ховер-ефект */
 .nav-home:hover {
-  color: #404bbf; /* Зміна кольору при наведенні */
+  color: #404bbf;
+  text-decoration: none; /* Зміна кольору при наведенні */
 }
 
 /* Фокус-ефект */
 .nav-home:focus {
-  color: #404bbf; /* Зміна кольору при фокусі */
+  color: #404bbf;
+  text-decoration: none; /* Зміна кольору при фокусі */
 }
 
 header address {
@@ -85,10 +87,15 @@ header address ul li {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
+.contact-info .contact-link:hover,
+.contact-info .contact-link:focus {
+  color: #404bbf; /* Колір при ховері або фокусі */
+  text-decoration: none; /* Залишається без підкреслення */
+}
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+  text-decoration: none;
 }
 
 /* Hero Section */
