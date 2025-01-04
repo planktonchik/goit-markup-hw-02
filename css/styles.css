@@ -123,15 +123,15 @@ header address ul li {
 
 /* Ховер-ефект */
 .hero-button:hover {
-  background-color: #404bbf; /* Фон при наведенні */
-  color: #f4f4fd; /* Колір тексту при наведенні */
+  background-color: #404bbf;
+  color: #f4f4fd;
 }
 
 /* Фокус-ефект */
 .hero-button:focus {
-  background-color: #404bbf; /* Фон при фокусі */
-  color: #f4f4fd; /* Колір тексту при фокусі */
-  outline: none; /* Вимкнення стандартного фокуса */
+  background-color: #404bbf;
+  color: #f4f4fd;
+  outline: none;
 }
 
 /* Features Section */
@@ -181,7 +181,15 @@ header address ul li {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio-item {
+.team-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list {
+  background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
