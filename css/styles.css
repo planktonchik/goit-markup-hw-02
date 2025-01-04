@@ -128,7 +128,7 @@ header address ul li {
 }
 
 /* Фокус-ефект */
-.hero-button:focus {
+.hero-button:active {
   background-color: #404bbf;
   color: #f4f4fd;
   outline: none;
