@@ -56,12 +56,7 @@ header nav ul li {
 }
 
 /* Ховер-ефект */
-.nav-home:hover {
-  color: #404bbf;
-  text-decoration: none; /* Зміна кольору при наведенні */
-}
-
-/* Фокус-ефект */
+.nav-home:hover,
 .nav-home:focus {
   color: #404bbf;
   text-decoration: none; /* Зміна кольору при фокусі */
@@ -129,13 +124,8 @@ header address ul li {
 }
 
 /* Ховер-ефект */
-.hero-button:hover {
-  background-color: #404bbf;
-  color: #f4f4fd;
-}
-
-/* Фокус-ефект */
-.hero-button:active {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: #f4f4fd;
   outline: none;
