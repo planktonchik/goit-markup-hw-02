@@ -82,8 +82,8 @@ header address ul li {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.contact-info .contact-link:hover,
-.contact-info .contact-link:focus {
+.contact-info:hover,
+.contact-info:focus {
   color: #404bbf; /* Колір при ховері або фокусі */
   text-decoration: none; /* Залишається без підкреслення */
 }
