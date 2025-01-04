@@ -44,6 +44,10 @@ header nav ul li {
 .home-link:focus {
   color: #404bbf;
 }
+.nav-list:hover,
+.nav-list:focus {
+  color: #404bbf;
+}
 /* Navigation Links */
 .nav-home {
   font-family: "Raleway", sans-serif;
