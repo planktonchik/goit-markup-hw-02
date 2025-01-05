@@ -50,8 +50,13 @@ header nav ul li {
   text-decoration: none; /* Відсутність підкреслення */
   letter-spacing: 0.02em;
 }
+.nav-home:hover,
+.nav-home:focus {
+  color: #404bbf; /* Зміна кольору при ховері або фокусі */
+  text-decoration: none;
+}
 
-header address {
+.nav-home header address {
   font-style: normal;
 }
 
