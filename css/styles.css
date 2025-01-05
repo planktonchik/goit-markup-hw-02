@@ -81,7 +81,9 @@ header address ul li {
 .contact-link:focus {
   color: #404bbf;
 }
-
+.contact-info {
+  font-style: normal;
+}
 /* Hero Section */
 .hero {
   text-align: center;
