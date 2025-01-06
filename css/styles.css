@@ -112,8 +112,8 @@ header address ul li {
   transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero .hero-button:hover,
+.hero .hero-button:focus {
   background-color: #404bbf;
 }
 
