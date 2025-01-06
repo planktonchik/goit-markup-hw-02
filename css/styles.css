@@ -99,9 +99,11 @@ header {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: #404bbf; /* Зміна кольору фону */
+  color: #ffffff; /* Додатково: зміна кольору тексту, якщо потрібно */
+  outline: none; /* Видалення стандартного обведення при фокусі */
+  transition: background-color 0.3s ease; /* Плавний перехід */
 }
-
 /* Features Section */
 .features {
   background-color: #fff;
