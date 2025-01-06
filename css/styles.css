@@ -46,16 +46,7 @@ header {
   color: #404bbf;
   text-decoration: none;
 }
-.nav-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
