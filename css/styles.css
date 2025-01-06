@@ -75,12 +75,12 @@ header address ul li {
   transition: color 0.3s ease;
 }
 
-.contact-info .contact-link:hover,
-.contact-info .contact-link:focus {
-  color: #404bbf;
-}
 .contact-info {
   font-style: normal;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 
 .hero {
