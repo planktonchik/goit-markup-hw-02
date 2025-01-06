@@ -26,13 +26,6 @@ header {
   color: #2e2f42;
 }
 
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  margin: 0;
-}
 .home-link {
   color: #2e2f42;
   text-decoration: none;
@@ -56,14 +49,6 @@ header nav ul li {
 
 .nav-home header address {
   font-style: normal;
-}
-
-header address ul {
-  list-style: none;
-}
-
-header address ul li {
-  margin: 0;
 }
 
 .contact-link {
@@ -112,8 +97,8 @@ header address ul li {
   transition: background-color 0.3s ease;
 }
 
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -130,14 +115,6 @@ header address ul li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.features ul {
-  list-style: none;
-}
-
-.features ul li {
-  margin-bottom: 20px;
 }
 
 .feature-text {
@@ -238,27 +215,4 @@ header address ul li {
   margin-bottom: 20px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  header nav ul li {
-    margin: 0 0 10px 0;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero button {
-    font-size: 0.875rem;
-  }
-
-  section ul {
-    list-style: none;
-  }
-
-  .team ul {
-    list-style: none;
-  }
 }
