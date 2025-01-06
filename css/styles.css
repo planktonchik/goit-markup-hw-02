@@ -46,11 +46,16 @@ header {
   color: #404bbf;
   text-decoration: none;
 }
-
-.nav-home header address {
-  font-style: normal;
+.nav-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -99,10 +104,7 @@ header {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf; /* Зміна кольору фону */
-  color: #ffffff; /* Додатково: зміна кольору тексту, якщо потрібно */
-  outline: none; /* Видалення стандартного обведення при фокусі */
-  transition: background-color 0.3s ease; /* Плавний перехід */
+  background-color: #404bbf;
 }
 /* Features Section */
 .features {
