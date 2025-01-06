@@ -28,9 +28,7 @@ header {
 
 .home-link {
   color: #2e2f42;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+  
 
 .nav-home {
   font-family: "Raleway", sans-serif;
@@ -38,13 +36,12 @@ header {
   font-weight: 500;
   color: #2e2f42;
   line-height: 1.5;
-  text-decoration: none;
   letter-spacing: 0.02em;
 }
 .nav-home:hover,
 .nav-home:focus {
   color: #404bbf;
-  text-decoration: none;
+  
 }
 
 .contact-link {
@@ -52,8 +49,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  
 }
 
 .contact-info {
@@ -90,7 +86,6 @@ header {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  transition: background-color 0.3s ease;
 }
 
 .hero-button:hover,
